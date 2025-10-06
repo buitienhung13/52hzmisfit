@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghép Ảnh Game - 52hzmisfit</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #0a0a0a, #1b1208, #2a1c0b);
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.4);
+      box-shadow: 0 2px 10px rgba(255, 215, 0, 0.2);
+    }
+
+    header a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #ffd700;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      color: #fff;
+    }
+
+    h2 {
+      margin-left: 16px;
+      margin-top: 30px;
+      color: #ffcc33;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .gallery {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 12px;
+      padding: 16px;
+    }
+
+    .card {
+      position: relative;
+      flex: 0 0 auto;
+      border-radius: 16px;
+      overflow: hidden;
+      scroll-snap-align: start;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .overlay {
+      position: absolute;
+      left: 0;
+      padding: 6px 10px;
+      background: rgba(255, 215, 0, 0.7);
+      color: #000;
+      border-radius: 0 8px 8px 0;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .overlay.top {
+      top: 0;
+    }
+
+    .overlay.bottom {
+      bottom: 0;
+      border-radius: 0 8px 0 0;
+    }
+
+    /* Responsive sizes */
+    .vertical img {
+      width: 220px;
+      height: 390px;
+      object-fit: cover;
+    }
+
+    .horizontal img {
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <a href="https://www.facebook.com/share/19eGihbGfm/?mibextid=wwXIfr" target="new"><i class="fab fa-facebook"></i> Facebook</a>
+    <a href="https://www.tiktok.com/@52hzmisfit?_t=ZS-90KVyBJ9xH0&_r=1" target="new"><i class="fab fa-tiktok"></i> TikTok</a>
+    <a href="https://zalo.me/g/uhlfdp889" target="new"><i class="fab fa-zalo"></i> Zalo: 034 751 0287</a>
+</header>
+
+  <h2>xứ hoàng hôn</h2>
+<div class="gallery vertical">
+  <div class="card">
+      <img src="images/anh1.JPEG" alt="shh01">
+      <div class="overlay top">xhh01</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+  </div>
+    <div class="card">
+      <img src="images/anh2.JPG" alt="shh02">
+      <div class="overlay top">xhh02</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+    </div>
+    <div class="card">
+      <img src="images/anh3.jpeg" alt="shh03">
+      <div class="overlay top">xhh03</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+    </div>
+</div>
+
+  <h2>Xứ bình minh</h2>
+<div class="gallery horizontal">
+    <div class="card">
+      <img src="images/anh4.jpg" alt="sbm01">
+      <div class="overlay top">xbm01</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+    </div>
+    <div class="card">
+      <img src="images/anh5.jpg" alt="sbm02">
+      <div class="overlay top">xbm02</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+    </div>
+    <div class="card">
+      <img src="images/anh6.png" alt="sbm03">
+      <div class="overlay top">xbm03</div>
+      <div class="overlay bottom">Giá: 50.000đ</div>
+    </div>
+</div>
+	<h2>ưng ảnh nào ib zalo: 0347510287 nha :3&nbsp; &nbsp; &nbsp;</h2>
+</body>
+</html>
