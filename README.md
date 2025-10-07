@@ -1,2 +1,2 @@
-# 52hzmisfit.github.io
+# 52hzmisfit
 Ghép Ảnh Game Liên Quân, Free Fire, Genshin Impact,...
